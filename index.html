@@ -130,6 +130,71 @@
             .item-logo { width: 42px; height: 42px; }
         }
     </style>
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                "@type": "Person",
+                "@id": "https://mikeywhiston.dev/#person",
+                "name": "Mikey Whiston",
+                "jobTitle": "Systems Architect & Security Researcher",
+                "url": "https://mikeywhiston.dev",
+                "image": "https://mikeywhiston.dev/assets/avatar.png",
+                "description": "Systems Architect and Security Researcher specializing in Critical National Infrastructure, deterministic logic systems, and responsible vulnerability disclosure.",
+                "worksFor": {
+                    "@id": "https://mikeywhiston.dev/#organization"
+                },
+                "sameAs": [
+                    "https://www.linkedin.com/in/mikeywhiston",
+                    "https://github.com/mikeywhiston",
+                    "https://hackerone.com/mikeywhiston",
+                    "https://www.thetimes.com/article/7c8e79a2-dce3-4088-98a0-a93d2de0be94",
+                    "https://www.railengineer.co.uk/the-machine-truth-of-rail-ticketing/",
+                    "https://www.youtube.com/watch?v=tExE4fTEHF0"
+                ],
+                "knowsAbout": [
+                    {
+                    "@type": "Thing",
+                    "name": "Critical Infrastructure",
+                    "sameAs": "https://en.wikipedia.org/wiki/Critical_infrastructure"
+                    },
+                    {
+                    "@type": "Thing",
+                    "name": "Rust",
+                    "sameAs": "https://en.wikipedia.org/wiki/Rust_(programming_language)"
+                    },
+                    {
+                    "@type": "Thing",
+                    "name": "Coordinated Vulnerability Disclosure",
+                    "sameAs": "https://en.wikipedia.org/wiki/Coordinated_vulnerability_disclosure"
+                    },
+                    {
+                    "@type": "Thing",
+                    "name": "SQL Injection",
+                    "sameAs": "https://en.wikipedia.org/wiki/SQL_injection"
+                    }
+                ],
+                "award": [
+                    "National Cyber Security Centre (NCSC) Challenge Coin",
+                    "1st Place, Rail Data Marketplace Hackathon 2026"
+                ]
+                },
+                {
+                "@type": "Organization",
+                "@id": "https://mikeywhiston.dev/#organization",
+                "name": "Sentinel Logic Ltd",
+                "legalName": "Sentinel Logic Limited",
+                "url": "https://mikeywhiston.dev",
+                "founder": {
+                    "@id": "https://mikeywhiston.dev/#person"
+                },
+                "description": "High-assurance software engineering and deterministic infrastructure consulting for UK Critical National Infrastructure."
+                }
+            ]
+        }
+    </script>
 </head>
 <body>
 
